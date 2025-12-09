@@ -1,0 +1,25 @@
+
+# ============================================================================
+# Phishing URL Detector - Python Dependencies
+# ============================================================================
+# 
+# This file specifies all required packages for the Streamlit application.
+# Install locally with: pip install -r requirements.txt
+# Automatically used by Streamlit Cloud during deployment.
+#
+# ============================================================================
+
+# Core Web Framework
+streamlit==1.29.0
+
+# Data Manipulation & Analysis
+pandas==2.1.3
+numpy==1.26.2
+bs4
+
+# Machine Learning
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# No additional dependencies required - all feature extraction uses Python standard library
+# (re, socket, urllib.parse, warnings)
